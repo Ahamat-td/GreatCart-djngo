@@ -7,3 +7,7 @@ def home(request):
         'products': products
     }
     return render(request, 'home.html', context=context)
+
+'''
+https://github.com/dev-rathankumar/greatkart-course
+'''
